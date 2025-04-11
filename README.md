@@ -24,7 +24,44 @@ This product will need the following:
 * PCA analysis on an individual home 
 * PCA analysis on a zip code 
 * PCA on a drawn area (if time allows) 
-* AI-based outlooks on how that aspect of the home may fare in the future 
+* AI-based outlooks on how that aspect of the home may fare in the future
+
+## Timeline
+
+This project will be organized into sprints:
+
+**Sprint 1: Map Integration**
+* **EDC:** 4/18/25
+* **Hours:** 4-5
+* App container created
+* Initial IDX / Map system created
+
+**Sprint 2: King County Integration**
+* **EDC:** 4/25/25
+* **Hours:** 2-3
+* Integrate the King County GIS Data to the app
+* Create a card to display basic property information when a home is clicked
+
+**Sprint 3: Property Augmentation**
+* **EDC:** 5/9/25
+* **Hours:** 6-8
+* Integrate other open-source GIS databases for additional information
+* Apply PCA to determine which factors impacted property valuation the most over time
+
+**Sprint 4: Research Assistance**
+* **EDC:** 5/16/25
+* **Hours:** 2-3
+* Add buttons to cards for users to generate research on the outlook of certain features in the near future
+* Create AI API connection for previous task
+
+**Sprint 5: Clean-up**
+* **EDC:** 5/30/25
+* **Hours:** 6-8
+* Clean up the overall UI of the project
+* Debug any issues that arise
+* Finalize analysis tools and push to live
+
+Overall hour expectation: 20-27 hours
 
 ## Special Constraints 
 
@@ -48,4 +85,13 @@ The expected outcome of this project is that a user will be able to do the follo
 * Users will be able to see high-level details of a home as well, kinda like a MLS system 
 * For the selected unit/area, users will be able to see the overall PCA analysis, with a visualization on which aspects have impacted that selection the most 
 * Users can then see insights into the future outlook for each of those aspects to better influence their decisions about that property 
-* Potentially some financial prediction and analysis if time permits 
+* Potentially some financial prediction and analysis if time permits
+
+## Contact Info
+
+**Client:** Jaden Moon
+jmoon19@uw.edu
+lunen-jm
+
+**Developer:** Samar Khan
+samar1@uw.edu
